@@ -29,6 +29,24 @@ Utilizar o NotebookLM como ferramenta de apoio à aprendizagem ativa para analis
 - Desenvolver um miniguia de estudo que possa ser utilizado em revisões futuras;
 - Formular possíveis perguntas de pesquisa a partir da literatura analisada.
 
+## 🧭 Estrutura do projeto
+
+Este projeto foi desenvolvido como um processo de investigação orientado por Inteligência Artificial, utilizando o NotebookLM como ferramenta de apoio à organização, comparação e análise crítica da literatura científica.
+
+A investigação foi estruturada em cinco etapas principais:
+
+1. **Panorama do conhecimento** — identificação dos principais temas, tecnologias, produtos, variáveis, indicadores e limitações presentes nas fontes.
+2. **Análise comparativa** — comparação sistemática das 15 fontes selecionadas.
+3. **Validação das possíveis lacunas** — avaliação crítica das hipóteses de lacuna identificadas.
+4. **Teste de refutação** — tentativa deliberada de encontrar evidências que enfraquecessem ou contradissessem essas hipóteses.
+5. **Formulação de perguntas de pesquisa** — transformação das oportunidades que permaneceram em possíveis perguntas de investigação científica.
+
+### Fluxo da investigação
+
+**15 fontes científicas → Panorama → Comparação → Validação → Refutação → Perguntas de pesquisa**
+
+Os prompts utilizados em cada etapa estão disponíveis na pasta [`prompts`](./prompts/).
+
 ---
 
 ## 3. Tema de interesse
@@ -131,7 +149,7 @@ Essa abordagem buscou utilizar a IA como ferramenta de organização, exploraç�
 
 ---
 
-# 6. Engenharia de Prompts e "Cicatrizes"
+# 6. Engenharia de Prompts e Cicatrizes de Aprendizagem
 
 ## Prompt 01 — Mapeamento do conhecimento
 
@@ -268,7 +286,7 @@ Essas perguntas foram consideradas hipóteses de investigação e não lacunas d
 
 ---
 
-# 7. Principais resultados da análise
+# 7. Síntese dos resultados da análise
 
 A análise das 15 fontes indicou que a pesquisa contemporânea sobre secagem sustentável concentra-se principalmente em cinco grandes dimensões:
 
@@ -331,9 +349,9 @@ Observa-se uma tendência de integração de:
 
 # 8. Possíveis oportunidades de pesquisa
 
-A análise exploratória não permite afirmar definitivamente que as oportunidades abaixo constituem lacunas científicas originais. Elas devem ser consideradas hipóteses de investigação que precisam ser verificadas por meio de uma revisão bibliográfica mais ampla.
+As oportunidades apresentadas nesta seção não representam lacunas científicas comprovadas. Elas constituem hipóteses de investigação derivadas da análise exploratória das 15 fontes e deverão ser verificadas por meio de uma revisão bibliográfica mais ampla.
 
-## Oportunidade 1 — Integração LCA + TEA + desempenho operacional
+## 8.1 — Integração LCA + TEA + desempenho operacional
 
 Uma possível oportunidade consiste em integrar:
 
@@ -349,7 +367,7 @@ A literatura apresenta frameworks de LCA, TEA e análise 4E, porém a integraç�
 
 ---
 
-## Oportunidade 2 — Dimensão socioeconômica
+## 8.2 — Dimensão socioeconômica
 
 Outra oportunidade identificada está relacionada à avaliação empírica dos impactos socioeconômicos da adoção de tecnologias sustentáveis de secagem.
 
@@ -363,11 +381,12 @@ Embora os estudos relacionem tecnologias de secagem aos ODS e mencionem desenvol
 
 ---
 
-# 9. Limitações da análise
+# 9. Limitações da investigação
 
 É importante destacar que esta investigação possui caráter exploratório.
 
-As conclusões foram construídas a partir das 15 fontes selecionadas e das respostas produzidas pelo NotebookLM.
+A análise foi construída inicialmente a partir de 15 fontes científicas
+selecionadas e das respostas produzidas pelo NotebookLM.
 
 Portanto:
 
@@ -492,9 +511,9 @@ Os prompts abaixo podem ser utilizados futuramente para estudar outros temas.
 
 # 13. Próximos passos
 
-Este projeto representa uma etapa exploratória.
+Este projeto representa uma etapa exploratória da investigação.
 
-Como continuidade da investigação, pretende-se:
+Como continuidade, pretende-se:
 
 1. ampliar a literatura consultada;
 2. verificar as possíveis lacunas em bases científicas adicionais;
@@ -503,12 +522,32 @@ Como continuidade da investigação, pretende-se:
 5. avaliar a viabilidade experimental e/ou computacional;
 6. transformar uma oportunidade selecionada em um possível problema de pesquisa de doutorado.
 
+## 13.1 - Principal aprendizado
+
+O principal aprendizado deste projeto foi compreender que a utilização de Inteligência Artificial na pesquisa científica não deve se limitar à geração de respostas.
+
+O processo foi utilizado para:
+
+- organizar informações;
+- comparar diferentes estudos;
+- identificar padrões;
+- questionar interpretações;
+- procurar evidências contrárias;
+- reformular hipóteses;
+- transformar problemas gerais em perguntas investigáveis.
+
+Dessa forma, o NotebookLM foi utilizado como ferramenta de aprendizagem ativa e apoio ao raciocínio científico, enquanto a avaliação crítica das evidências permaneceu como responsabilidade do pesquisador.
+
 ---
 
-## Conclusão
+# 14. Conclusão
 
-O uso do NotebookLM permitiu transformar um conjunto de fontes científicas em uma estrutura organizada de aprendizagem e investigação.
+O uso do NotebookLM permitiu transformar um conjunto de 15 fontes científicas em uma estrutura organizada de aprendizagem, comparação e investigação.
 
-Mais do que obter respostas prontas, o processo utilizou diferentes etapas de questionamento, comparação e tentativa de refutação. Dessa forma, a IA foi utilizada como ferramenta de apoio ao raciocínio crítico e à organização do conhecimento, e não como substituta da análise científica.
+O principal resultado do projeto não foi simplesmente a identificação de possíveis lacunas, mas o desenvolvimento de um processo crítico para questioná-las. A sequência de mapeamento, comparação, validação, refutação e formulação de perguntas permitiu diferenciar temas pouco estudados, limitações metodológicas, problemas tecnológicos e possíveis oportunidades de pesquisa.
 
-A análise exploratória apontou principalmente duas oportunidades para investigação futura: a integração entre desempenho operacional, avaliação ambiental e análise econômica de sistemas de secagem, e a avaliação empírica dos impactos socioeconômicos associados à adoção de tecnologias sustentáveis na pós-colheita.
+A análise exploratória apontou duas oportunidades que permanecem relevantes para investigação futura: a integração entre desempenho operacional, avaliação ambiental e análise econômica de sistemas de secagem; e a avaliação empírica dos impactos socioeconômicos associados à adoção de tecnologias sustentáveis na pós-colheita.
+
+Essas oportunidades, entretanto, não são tratadas como lacunas científicas definitivamente comprovadas. Sua validade e originalidade deverão ser verificadas por meio de uma revisão bibliográfica mais ampla e da análise crítica dos estudos primários.
+
+Assim, o projeto demonstra uma aplicação da Inteligência Artificial como ferramenta de aprendizagem ativa e apoio ao raciocínio científico, e não como substituta da análise realizada pelo pesquisador.
